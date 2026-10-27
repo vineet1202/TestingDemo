@@ -38,7 +38,7 @@ jobs:
           --health-retries 5
 
     env:
-      DB_USER: postgres
+      DB_USERNAME: postgres
       DB_PASSWORD: postgres
       DB_NAME: test_demo
 
